@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#090d16"><title>ENGINEER OS — Build. Understand. Engineer. Evolve.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body><div class="app-shell">
+  <aside class="sidebar" id="sidebar">
+    <a class="brand" href="#dashboard"><span class="brand-mark">E<span>·</span></span><span><b>ENGINEER OS</b><small>YOUR LEARNING COMMAND CENTER</small></span></a>
+    <div class="side-label">WORKSPACE</div><nav id="nav">
+      <a href="#dashboard" data-page="dashboard" class="nav-item active"><i>◫</i> Overview</a>
+      <a href="#roadmap" data-page="roadmap" class="nav-item"><i>⌁</i> Roadmap <span class="nav-count">17</span></a>
+      <a href="#projects" data-page="projects" class="nav-item"><i>◈</i> Project tracker</a>
+      <a href="#ai-mastery" data-page="ai-mastery" class="nav-item"><i>✳</i> AI tool mastery</a>
+      <a href="#journal" data-page="journal" class="nav-item"><i>▤</i> Engineering journal</a>
+      <a href="#decisions" data-page="decisions" class="nav-item"><i>⌘</i> Decision log</a>
+      <a href="#analytics" data-page="analytics" class="nav-item"><i>▥</i> Analytics</a>
+    </nav>
+    <div class="sidebar-bottom"><div class="journey-mini"><div class="mini-top"><span>YOUR JOURNEY</span><span id="mini-progress">0%</span></div><div class="progress-track"><span id="mini-bar"></span></div><div class="mini-dates">DEC 07, 2026 <span>→</span> APR 04, 2027</div></div><button class="nav-item" id="backup-btn"><i>⇧</i> Export / restore</button><div class="profile"><div class="avatar">E</div><div><b>Engineer</b><small>17 WEEK JOURNEY</small></div><span class="online-dot"></span></div></div>
+  </aside>
+  <main class="main"><header class="topbar"><button id="menu-btn" class="icon-btn menu-btn" aria-label="Toggle navigation">☰</button><div class="breadcrumbs"><span>ENGINEER OS</span><span class="crumb-sep">/</span><b id="crumb">OVERVIEW</b></div><div class="top-right"><span class="today-label" id="today-date"></span><button class="icon-btn" id="settings-btn" title="Settings">⚙</button></div></header><section id="content" class="content"></section></main>
+</div><input id="restore-file" type="file" accept="application/json" hidden><div id="toast" class="toast"></div><script src="app.js"></script></body></html>
