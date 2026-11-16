@@ -2,6 +2,8 @@
 
 A local-first learning dashboard for the 17-week engineering roadmap.
 
+This is a personal vibecoded project built entirely using GPT Codex.
+
 ## Run it
 
 Open `index.html` in a modern browser. To use it from a local web server, open PowerShell in this folder and run:
